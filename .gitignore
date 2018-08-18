@@ -18,6 +18,9 @@
 *.iws
 *.iml
 *.ipr
+*.log
+*.gz
+*.tmp
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,3 +29,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/.log/
+/.gz/
+/.tmp/
