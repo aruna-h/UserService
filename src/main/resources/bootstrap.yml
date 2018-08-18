@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: ConfigServer
+      uri: http://localhost:9090
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+          
